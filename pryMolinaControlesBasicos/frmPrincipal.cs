@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryMolinaControlesBasicos
 {
-    public partial class frmControlesBasicos : Form
+    public partial class frmPrincipal : Form
     {
-        public frmControlesBasicos()
+        public frmPrincipal()
         {
             InitializeComponent();
         }

@@ -16,7 +16,7 @@ namespace pryMolinaControlesBasicos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmControlesBasicos());
+            Application.Run(new frmPrincipal());
         }
     }
 }
