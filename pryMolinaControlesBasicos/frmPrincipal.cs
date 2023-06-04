@@ -54,5 +54,13 @@ namespace pryMolinaControlesBasicos
         {
             lblBienvenida.Location = new Point(24, 18);
         }
+
+        private void btnSecundario_Click(object sender, EventArgs e)
+        {
+             frmSecundario frmSecundario = new frmSecundario();
+            frmSecundario.Show();
+            this.Hide();
+
+        }
     }
 }

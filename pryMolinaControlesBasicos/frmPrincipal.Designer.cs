@@ -83,6 +83,7 @@
             this.btnSecundario.TabIndex = 3;
             this.btnSecundario.Text = "Secundario";
             this.btnSecundario.UseVisualStyleBackColor = false;
+            this.btnSecundario.Click += new System.EventHandler(this.btnSecundario_Click);
             // 
             // frmPrincipal
             // 
@@ -93,7 +94,7 @@
             this.Controls.Add(this.lblBienvenida);
             this.Controls.Add(this.lblEjeY);
             this.Controls.Add(this.lblEjeX);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmPrincipal";
